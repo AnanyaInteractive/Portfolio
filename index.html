@@ -1,105 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dust to Divinity</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet" />
-  </head>
-  <body class="bg-[#0e0e10] text-white font-sans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ananya Interactive</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-black text-white">
+  <div class="max-w-5xl mx-auto px-4 py-12">
+    <h1 class="text-5xl font-bold mb-6">Ananya Interactive</h1>
+    <p class="text-lg text-gray-300 mb-10 max-w-2xl">
+      Welcome to the official portfolio of <span class="text-pink-400 font-semibold">Ananya Interactive</span>, an indie studio crafting soulful interactive stories, games, and digital experiences.
+    </p>
 
-    <!-- Header -->
-    <header class="bg-black border-b border-gray-800 sticky top-0 z-50">
-      <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 class="text-lg font-bold">Ananya Interactive</h1>
-        <nav class="space-x-4 text-sm text-gray-400">
-          <a href="#features" class="hover:text-white">Features</a>
-          <a href="#levels" class="hover:text-white">Levels</a>
-          <a href="#gallery" class="hover:text-white">Gallery</a>
-          <a href="#contact" class="hover:text-white">Contact</a>
-        </nav>
+    <div class="grid gap-8 md:grid-cols-2">
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg">
+        <h2 class="text-2xl font-semibold mb-2">🎮 Chrono-Fracture</h2>
+        <p class="text-gray-400 mb-4">A spirit-based metroidvania exploring time and existence.</p>
+        <a href="https://yourgamepage.com/chrono-fracture" target="_blank" class="inline-block bg-pink-600 hover:bg-pink-700 text-white py-2 px-4 rounded-lg">Play Now</a>
       </div>
-    </header>
 
-    <!-- Hero -->
-    <section class="py-20 px-4 text-center max-w-4xl mx-auto">
-      <h2 class="text-4xl font-semibold mb-4">Dust to Divinity</h2>
-      <p class="text-gray-400 mb-6">A spiritual-cleaning adventure. Clean the world, and clean yourself.</p>
-      <a href="#levels" class="inline-block px-5 py-2 border border-white rounded text-sm hover:bg-white hover:text-black transition">Start Cleansing</a>
-    </section>
-
-    <!-- Features -->
-    <section id="features" class="py-16 border-t border-gray-800">
-      <div class="max-w-4xl mx-auto px-4 grid md:grid-cols-3 gap-6 text-sm text-gray-400">
-        <div>
-          <h4 class="text-white font-medium mb-2">Emotional Design</h4>
-          <p>Each object mirrors an emotion as you clean.</p>
-        </div>
-        <div>
-          <h4 class="text-white font-medium mb-2">Symbolic Levels</h4>
-          <p>Lantern, Sword, Buddha — a mystical metaphor.</p>
-        </div>
-        <div>
-          <h4 class="text-white font-medium mb-2">Minimalist Aesthetic</h4>
-          <p>Quiet UI. Poetic storytelling. No noise.</p>
-        </div>
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg">
+        <h2 class="text-2xl font-semibold mb-2">🎮 Echoes of Aeris</h2>
+        <p class="text-gray-400 mb-4">Puzzle platformer journey through the Realm of Memory.</p>
+        <a href="https://yourgamepage.com/echoes-of-aeris" target="_blank" class="inline-block bg-pink-600 hover:bg-pink-700 text-white py-2 px-4 rounded-lg">Play Now</a>
       </div>
-    </section>
+    </div>
 
-    <!-- Levels -->
-    <section id="levels" class="py-16 border-t border-gray-800">
-      <div class="max-w-4xl mx-auto px-4 text-center">
-        <h3 class="text-2xl font-semibold mb-10">Sacred Levels</h3>
-        <div class="grid md:grid-cols-3 gap-6 text-sm text-gray-400">
-          <div>
-            <img src="https://via.placeholder.com/400x200?text=Lantern" alt="Lantern Level" class="mb-2 rounded" />
-            <h4 class="text-white font-medium">The Lantern</h4>
-            <p>Begin in temples. Illuminate the path.</p>
-          </div>
-          <div>
-            <img src="https://via.placeholder.com/400x200?text=Sword" alt="Sword Level" class="mb-2 rounded" />
-            <h4 class="text-white font-medium">The Sword</h4>
-            <p>Cut through filth. Cleanse with courage.</p>
-          </div>
-          <div>
-            <img src="https://via.placeholder.com/400x200?text=Buddha" alt="Buddha Level" class="mb-2 rounded" />
-            <h4 class="text-white font-medium">The Buddha</h4>
-            <p>Purify the sacred. Let the dust fall.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Gallery -->
-    <section id="gallery" class="py-16 border-t border-gray-800">
-      <div class="max-w-4xl mx-auto px-4 text-center">
-        <h3 class="text-2xl font-semibold mb-8">Gallery</h3>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <img src="https://via.placeholder.com/200x200?text=1" alt="Gallery Image 1" class="rounded" />
-          <img src="https://via.placeholder.com/200x200?text=2" alt="Gallery Image 2" class="rounded" />
-          <img src="https://via.placeholder.com/200x200?text=3" alt="Gallery Image 3" class="rounded" />
-          <img src="https://via.placeholder.com/200x200?text=4" alt="Gallery Image 4" class="rounded" />
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="py-16 border-t border-gray-800">
-      <div class="max-w-md mx-auto px-4">
-        <h3 class="text-2xl font-semibold mb-6 text-center">Contact</h3>
-        <form class="space-y-4 text-sm">
-          <input type="text" placeholder="Name" class="w-full p-2 bg-gray-800 border border-gray-700 rounded text-white" />
-          <input type="email" placeholder="Email" class="w-full p-2 bg-gray-800 border border-gray-700 rounded text-white" />
-          <textarea placeholder="Message" rows="4" class="w-full p-2 bg-gray-800 border border-gray-700 rounded text-white"></textarea>
-          <button type="submit" class="w-full border border-white py-2 rounded hover:bg-white hover:text-black transition">Send</button>
-        </form>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center text-gray-500 text-xs py-6 border-t border-gray-800">
-      © 2025 Dust to Divinity | Ananya Interactive
+    <footer class="mt-16 text-center text-sm text-gray-500 border-t border-gray-700 pt-6">
+      &copy; <span id="year"></span> Ananya Interactive. Crafted with passion.
     </footer>
+  </div>
 
-  </body>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
